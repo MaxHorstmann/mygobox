@@ -14,5 +14,5 @@ func main() {
 }
 
 func rootHandler(res http.ResponseWriter, req *http.Request) {
-	fmt.Fprintln(
+	fmt.Fprintln(res, "test")
 }
